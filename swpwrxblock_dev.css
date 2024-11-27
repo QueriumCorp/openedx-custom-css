@@ -5,6 +5,29 @@ body {
   background: lightred !important;
 }
 
+/* Hide the Resume button */
+.pgn__card-header-actions {
+  display: none !important;
+}
+
+/* change the Resume button prompt text */
+.pgn__card-header-title-md { position: relative; }
+
+.pgn__card-header-title-md::before {
+    position:absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: white;
+    border: none;
+    content: 'New!! How to Resume:'
+}
+
+.pgn__card-header-content:after {
+  content: 'Click the first item on your To Do list that does NOT have a green check mark.';
+}
+
 /* hide the debris at the bottom of the page... */
 .unit-navigation.d-flex {
   display: none !important;
