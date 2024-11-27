@@ -1,0 +1,74 @@
+/* swpwrxblock.css for dev */
+
+/* Test on the body */
+body {
+  background: lightred !important;
+}
+
+/* hide the debris at the bottom of the page... */
+.unit-navigation.d-flex {
+  display: none !important;
+}
+
+/* If you want to hide the dark blue "View this course" bar, you can add the css... */
+[data-testid="instructor-toolbar"] {
+  display: none;
+}
+
+/* and hide the footer... */
+footer.footer.d-flex.border-top.py-3.px-4 {
+  display: none !important;
+}
+
+/* hide the trademark... */
+.container-xl div .text-right.small.py-1 {
+  display: none;
+}
+
+/* This gets rid of 4rem of bottom margin on the container of the container of the container of the iframe. */
+.sequence-container.d-inline-flex.flex-row {
+  margin-bottom: 0px;
+}
+
+/* This will hide the Prepare h1 above the iframe that is redundant */
+h1.mb-0.h3 {
+  display: none;
+}
+
+/* This will hide the bookmark button */
+button.pgn__stateful-btn.pgn__stateful-btn-state-default.px-1.ml-n1.btn-sm.text-primary-500.btn.btn-link {
+  display: none;
+}
+
+/* Hide Course Materials */
+.col.col-12.col-md-4 {
+  display: none;
+}
+
+/* Height of the iframe to 100dvh */
+#unit-iframe {
+  height: 100dvh !important;
+}
+
+.wrapper-footer {
+  display: none;
+}
+
+/* hide notification clock */
+.d-flex.ml-auto {
+  display: none !important;
+}
+
+/* hide assignments from the students */
+/* #courseHome-outline li:nth-child(n + 11) {
+  display: none;
+} */
+
+/* hide Dates and Instructor tabs */
+nav.nav.flex-nowrap.nav-underline-tabs a:nth-child(n + 3) {
+  display: none;
+}
+
+/* If you want to hide the Course,Progress, Dates, and Instructor tabs, 
+enable the following css... */
+/* div#courseTabsNavigation { display:none} */
