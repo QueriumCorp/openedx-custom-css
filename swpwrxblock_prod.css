@@ -63,6 +63,17 @@ button.pgn__stateful-btn.pgn__stateful-btn-state-default.px-1.ml-n1.btn-sm.text-
   display: none;
 }
 
+#main-content > div.container-xl > div.position-relative.d-flex.align-items-xl-center.mb-4.mt-1.flex-column.flex-xl-row::after {
+    color: red;
+    position:absolute;
+    top: 30px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border: none;
+    content: "On the bar below, click the first box that does NOT have a green check mark.";
+}
+
 /* Hide Course Materials */
 .col.col-12.col-md-4 {
   display: none;

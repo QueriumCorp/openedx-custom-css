@@ -28,6 +28,17 @@ body {
   content: 'Click the first item on your To Do list that does NOT have a green check mark.';
 }
 
+#main-content > div.container-xl > div.position-relative.d-flex.align-items-xl-center.mb-4.mt-1.flex-column.flex-xl-row::after {
+    color: red;
+    position:absolute;
+    top: 30px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border: none;
+    content: "On the bar below, click the first box that does NOT have a green check mark.";
+}
+
 /* hide the debris at the bottom of the page... */
 .unit-navigation.d-flex {
   display: none !important;
